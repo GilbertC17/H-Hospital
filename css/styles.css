@@ -1,0 +1,544 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   font-family: Helvetica;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   color: #333;
+}
+
+#header-princ {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #2ea4ee;
+  height: 80px;
+  color: white;
+}
+
+#info-header {
+   height: 80px;
+}
+
+.logos-header {
+   display: flex;
+   justify-content: left;
+   margin-top: 10px;
+   margin-left: 100px;
+   float: left;
+}
+
+.logos-header figure {
+   border: 2px white solid;
+   font-size: 20px;
+   border-radius: 100%;
+   height: 40px;
+   width: 40px;
+   background-color: white;
+}
+
+.text {
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.logos-header i {
+   color: #2ea4ee;
+   margin-top: 8px;
+}
+
+.icons-header {
+   float: right;
+   display: flex;
+   margin-right: 50px;
+   margin-top: 10px;
+}
+
+.icons-header figure {
+   display: inline-block;
+   border: 2px white solid;
+   font-size: 18px;
+   border-radius: 100%;
+   height: 35px;
+   width: 35px;
+   margin: 5px;
+}
+
+.icons-header i {
+   margin-top: 8px;
+}
+
+#section-nav {
+   max-width: 1200px;
+   height: 75px;
+   margin: auto;
+   background-color: #29a3b0;
+}
+
+#section-nav figure {
+   float: left;
+   margin-left: 70px;
+}
+
+#section-nav img {
+   max-width: 180px;
+}
+
+#section-nav nav {
+   float: right;
+   justify-content: center;
+   margin-top: 15px;
+   margin-right: 20px;
+   display: flex;
+}
+
+#section-nav ul {
+   display: flex;
+   justify-content: space-evenly;
+   gap: 30px;
+}
+
+#section-nav li {
+   list-style-type: none;
+}
+
+#section-nav a {
+   display: inline-block;
+   font-size: 18px;
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   transition: all 0.2s linear;
+}
+
+#section-nav a:hover {
+   border: 2px white solid;
+}
+
+#image-section {
+   max-width: 1200px;
+   height: 420px;
+   margin: auto;
+   background-image: url(../img/fotoslide.jpg);
+   background-size: cover;
+}
+
+#text-section-img {
+   justify-content: center;
+   max-width: 680px;
+   margin-left: 70px;
+   padding-top: 100px;
+   color: white;
+}
+
+.title {
+   font-size: 32px;
+   margin: 10px;
+   font-weight: bold;
+   max-width: 320px;
+}
+
+.text_img {
+   margin-top: 20px;
+   margin-left: 20px;
+   background-color: #d6d6d6b9;
+   color: #636363;
+   text-align: left;
+}
+
+.btn-img-section {
+   max-width: 150px;
+   padding: 10px;
+   border: 2px #20a7b6 solid;
+   margin-left: 20px;
+   margin-top: 20px;
+   transition: all 0.2s linear;
+}
+
+.btn-img-section a {
+   font-size: 18px;
+   font-weight: bold;
+   text-decoration: none;
+   color: #20a7b6;
+   margin-right: 10px;
+   transition: all 0.2s linear;
+}
+
+.btn-img-section i {
+   color: #20a7b6;
+   transition: all 0.2s linear;
+}
+
+.btn-img-section:hover {
+   border: 2px white solid;
+}
+
+.btn-img-section:hover a {
+   color: white;
+}
+
+.btn-img-section:hover i {
+   color: white;
+}
+
+#section-boxs {
+   max-width: 1000px;
+   margin: auto;
+   margin-top: 50px;
+   justify-content: center;
+}
+
+#section-boxs ul {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+
+#section-boxs li {
+   max-width: 280px;
+   list-style-type: none;
+}
+
+#section-boxs article {
+   border: 1px rgb(205, 205, 205) solid;
+   text-align: left;
+   padding-left: 20px;
+   padding-top: 20px;
+   border-right: 1px rgb(169, 169, 169) solid;
+   transition: 0.2s all linear;
+}
+
+#section-boxs figure {
+   font-size: 24px;
+   color: #2ea4ee;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   transition: 0.2s all linear;
+}
+
+.text-boxs {
+   font-size: 14px;
+   margin-bottom: 20px;
+}
+
+#section-boxs li:hover article {
+   color: white;
+   background-color: #2ea4ee;
+}
+
+#section-boxs li:hover figure {
+   color: white;
+}
+
+#section-doctors {
+   margin: auto;
+   margin-top: 50px;
+   max-width: 1200px;
+}
+
+#title-sections {
+   text-align: left;
+   max-width: 350px;
+   margin-bottom: 20px;
+}
+
+#title-sections p {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 13px;
+}
+
+#title-sections hr {
+   max-width: 100px;
+   background-color: #2ea4ee;
+   height: 8px;
+}
+
+#section-doctors li {
+   list-style-type: none;
+}
+
+#doctors ul {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+
+
+#doctors li {
+   margin-top: 20px;
+   max-width: 220px;
+   margin-left: 30px;
+   overflow: hidden;
+   position: relative;
+   border: 1px #2ea4ee solid;
+}
+
+.icon-red {
+   margin-top: 10px;
+}
+
+.icon-red figure {
+   border-radius: 100%;
+   max-width: 35px;
+   height: 30px;
+   margin-left: 90px;
+   background-color: white;
+}
+
+.icon-red i {
+   color: black;
+   margin-top: 5px;
+   font-size: 20px;
+}
+
+.text-doctors1 {
+   border-top: 1px #2ea4ee solid;
+   transition: all 1s linear;
+}
+
+.text-doctors {
+   border-top: 1px #2ea4ee solid;
+   transition: all 1s linear;
+}
+
+#doctors img {
+   max-width: 220px;
+}
+
+.hover-doctor {
+   margin: auto;
+   margin-top: 150px;
+   color: white;
+  background-color: #007bc7b6;
+  width: 250px;
+  height: 260px;
+  position: absolute;
+  z-index: 2;
+  top: 100%;
+  left: 0;
+  transition: all 0.2s linear;
+}
+
+.text-doctors1 {
+   font-size: 13px;
+}
+
+.title-doctor {
+   font-weight: bold;
+   font-size: 16px;
+}
+
+.text-doctors1 span {
+   font-style: italic;
+}
+
+.hover-doctor h3 {
+   margin-top: 20px;
+   font-size: 22px;
+   margin-right: 20px;
+}
+
+.hover-doctor p {
+   margin-top: 10px;
+   margin-right: 20px;
+}
+
+#doctors li:hover .hover-doctor {
+   top: 0;
+}
+
+#doctors li:hover .text-doctors1 {
+   display: none;
+}
+
+#section-departments {
+   max-width: 1200px;
+   margin: auto;
+   margin-top: 50px;
+}
+
+#departments-box ul {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   gap: 20px;
+}
+
+#departments-box li {
+   list-style-type: none;
+   font-size: 48px;
+   max-width: 350px;
+}
+
+#departments-box {
+   position: relative;
+   margin-top: 30px;
+}
+
+.box-department {
+   border: 1px rgba(150, 150, 150, 0.756) solid;
+   font-size: 16px;
+   margin-top: 50px;
+}
+
+.icon-department i {
+   font-size: 38px;
+}
+
+
+.icon-department {
+   position: absolute;
+   margin-left: 150px;
+}
+
+.btn-department {
+   padding: 10px;
+   margin-top: 20px;
+   display: inline-block;
+   max-width: 120px;
+   background-color: #2ea4ee;
+   transition: all 0.3s linear;
+   margin-bottom: 10px;
+}
+
+.btn-department a {
+   text-decoration: none;
+   color: white;
+   transition: all 0.3s linear;
+}
+
+.btn-department:hover {
+   background-color: white;
+
+   border: 1px #2ea4ee solid;
+}
+
+.btn-department:hover a {
+   color: gray;
+}
+
+#img-section-footer {
+   max-width: 1200px;
+   margin: auto;
+   margin-top: 50px;
+}
+
+#img-section-footer ul {
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   justify-content: center;
+}
+
+#img-section-footer p {
+   text-align: left;
+   margin-top: 20px;
+}
+
+#img-section-footer h2 {
+   color: #2ea4ee;
+   text-align: left;
+   margin-top: 10px;
+}
+
+#img-section-footer li {
+   list-style-type: none;
+   max-width: 450px;
+}
+
+#img-section-art img {
+   max-width: 450px;
+}
+
+#img-section-art figure {
+   transition: all 0.3s linear;
+}
+
+#img-section-art figure:hover {
+   filter: grayscale();
+}
+
+footer {
+   max-width: 1200px;
+   color: white;
+   padding: 20px;
+   background-color: #333;
+   margin: auto;
+   margin-top: 100px;
+}
+
+@media screen and (max-width:768px){
+
+   .logos-header {
+      display: none;
+   }
+
+   .icons-header {
+      margin-right: 160px;
+   }
+
+   #section-nav {
+      height: 320px;
+   }
+
+   #section-nav figure {
+      float: none;
+      margin-right: 40px;
+   }
+
+   #section-nav nav {
+      margin-left: 50px;
+      float: none;
+   }
+
+   #section-nav a {
+      padding-left: 120px;
+      padding-right: 120px;
+   }
+
+   #section-nav ul {
+      flex-direction: column;
+      gap: 0;
+   }
+
+   #title-sections {
+      margin-left: 30px;
+   }
+
+   #image-section {
+      display: none;
+   }
+
+   #doctors ul {
+      display: inline-block;
+      flex-direction: column;
+   }
+
+   #section-boxs ul {
+      display: inline-block;
+      flex-direction: column;
+   }
+
+   #departments-box ul {
+      display: inline-block;
+      flex-direction: column;
+   }
+
+   #departments-box p {
+      padding-top: 70px;
+   }
+
+   #img-section-footer ul {
+      flex-direction: column;
+      margin-left: 20px;
+   }
+}
+
